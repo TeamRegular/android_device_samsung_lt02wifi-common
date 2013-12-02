@@ -1,181 +1,190 @@
-# Bin
-bin/amixer
-bin/aplay
-bin/appCoda7542Dec
-bin/appCoda7542Enc
-bin/cploader
-bin/emmc_fsck
-bin/hwacc
-bin/i2cdetect
-bin/i2cdump
-bin/i2cget
-bin/i2cset
-bin/MarvellWirelessDaemon
-bin/mlanutl
-bin/mrvl_dut
-bin/msocket_testport
-bin/pand
-bin/ppd_cmd
-bin/sensord
-bin/serial_cfun0
-bin/serial_client
-bin/serial_client_test
-bin/usr_path_ctrl
-bin/vcm
-bin/vt_test
+# Stock modules
+system/lib/modules/cploaddev.ko
+system/lib/modules/cci_datastub.ko
+system/lib/modules/physrw.ko
+system/lib/modules/ccinetdev.ko
+system/lib/modules/galcore.ko
+system/lib/modules/exfat_fs.ko
+system/lib/modules/gs_diag.ko
+system/lib/modules/geu.ko
+system/lib/modules/msocketk.ko
+system/lib/modules/diag.ko
+system/lib/modules/seh.ko
+system/lib/modules/mlan.ko
+system/lib/modules/exfat_core.ko
+system/lib/modules/hwmap.ko
+system/lib/modules/cidatattydev.ko
+system/lib/modules/citty.ko
+system/lib/modules/bt8787.ko
+system/lib/modules/gs_modem.ko
+system/lib/modules/sd8787.ko
 
+# Bin
+system/bin/amixer
+system/bin/aplay
+system/bin/appCoda7542Dec
+system/bin/appCoda7542Enc
+system/bin/cploader
+system/bin/emmc_fsck
+system/bin/hwacc
+system/bin/i2cdetect
+system/bin/i2cdump
+system/bin/i2cget
+system/bin/i2cset
+system/bin/MarvellWirelessDaemon
+system/bin/mlanutl
+system/bin/mrvl_dut
+system/bin/msocket_testport
+system/bin/pand
+system/bin/ppd_cmd
+system/bin/sensord
+system/bin/serial_cfun0
+system/bin/serial_client
+system/bin/serial_client_test
+system/bin/usr_path_ctrl
+system/bin/vcm
+system/bin/vt_test
 
 # Graphics
-lib/egl/libGLES_android.so
-lib/egl/libEGL_MRVL.so
-lib/egl/libGLESv1_CM_MRVL.so
-lib/egl/libGLESv2_MRVL.so
-lib/libGAL.so
+system/lib/egl/libGLES_android.so
+system/lib/egl/libEGL_MRVL.so
+system/lib/egl/libGLESv1_CM_MRVL.so
+system/lib/egl/libGLESv2_MRVL.so
+system/lib/libGAL.so
 
 # Audio
-lib/hw/audio.primary.mrvl.so
-lib/hw/audio_path.adda.mrvl.so
-lib/hw/audio_path.fm.mrvl.so
-lib/hw/audio_path.hifi.mrvl.so
-lib/hw/audio_path.vc.mrvl.so
-lib/hw/audio_path.voip.mrvl.so
-lib/hw/audio_path.vt.mrvl.so
-lib/hw/audio_policy.mrvl.so
-lib/libacoustic.so
-lib/libaudiodebugtool.so
-lib/libMarvellWireless.so
-lib/libaudiosa.so
+system/lib/hw/audio.primary.mrvl.so
+system/lib/hw/audio_path.adda.mrvl.so
+system/lib/hw/audio_path.fm.mrvl.so
+system/lib/hw/audio_path.hifi.mrvl.so
+system/lib/hw/audio_path.vc.mrvl.so
+system/lib/hw/audio_path.voip.mrvl.so
+system/lib/hw/audio_path.vt.mrvl.so
+system/lib/hw/audio_policy.mrvl.so
+system/lib/libacoustic.so
+system/lib/libaudiodebugtool.so
+system/lib/libMarvellWireless.so
+system/lib/libaudiosa.so
 
 # Marvell Libs
-lib/liblvvewrapper.so
-lib/libmarvell-nvaccessor.so
-lib/libmarvell-ril.so
-lib/libMarvellWireless.so
-lib/libmiscgen.so
-lib/libMrvlOmx.so
-lib/libnvaccessor.so
-lib/libmtelif.so
+system/lib/liblvvewrapper.so
+system/lib/libmarvell-nvaccessor.so
+system/lib/libmarvell-ril.so
+system/lib/libMarvellWireless.so
+system/lib/libmiscgen.so
+system/lib/libMrvlOmx.so
+system/lib/libnvaccessor.so
+system/lib/libmtelif.so
 
 # Camera
-cameradata/datapattern_420sp.yuv
-cameradata/datapattern_front_420sp.yuv
-lib/hw/camera.mrvl.so
-lib/libcameraengine.so
-lib/libcodecjpegdec.so
-lib/libcodecjpegenc.so
-lib/libmiscgen.so
-lib/libphycontmem.so
-lib/libsecnativefeature.so
-lib/libsocketsvr.so
-etc/ov5647_scene_tuning.data
+system/cameradata/datapattern_420sp.yuv
+system/cameradata/datapattern_front_420sp.yuv
+system/lib/hw/camera.mrvl.so
+system/lib/libcameraengine.so
+system/lib/libcodecjpegdec.so
+system/lib/libcodecjpegenc.so
+system/lib/libmiscgen.so
+system/lib/libphycontmem.so
+system/lib/libsecnativefeature.so
+system/lib/libsocketsvr.so
+system/etc/ov5647_scene_tuning.data
 
 # Codecs
-lib/libcoda7542hal.so
-lib/libcoda7542.so
-lib/libcodecaacdec.so
-lib/libcodecaacenc.so
-lib/libcodecamrnbdec.so
-lib/libcodecamrnbenc.so
-lib/libcodecamrwbdec.so
-lib/libcodecamrwbenc.so
-lib/libcodeccoda7542dec.so
-lib/libcodeccoda7542enc.so
-lib/libcodech263dec.so
-lib/libcodech263enc.so
-lib/libcodech264dec.so
-lib/libcodech264enc.so
-lib/libcodecjpegdec.so
-lib/libcodecjpegenc.so
-lib/libcodecmp3dec.so
-lib/libcodecmpeg2dec.so
-lib/libcodecmpeg4dec.so
-lib/libcodecmpeg4enc.so
-lib/libcodecpngdec.so
-lib/libcodecwmadec.so
-lib/libcodecwmvdec.so
-lib/libffmpeg.so
+system/lib/libcoda7542hal.so
+system/lib/libcoda7542.so
+system/lib/libcodecaacdec.so
+system/lib/libcodecaacenc.so
+system/lib/libcodecamrnbdec.so
+system/lib/libcodecamrnbenc.so
+system/lib/libcodecamrwbdec.so
+system/lib/libcodecamrwbenc.so
+system/lib/libcodeccoda7542dec.so
+system/lib/libcodeccoda7542enc.so
+system/lib/libcodech263dec.so
+system/lib/libcodech263enc.so
+system/lib/libcodech264dec.so
+system/lib/libcodech264enc.so
+system/lib/libcodecjpegdec.so
+system/lib/libcodecjpegenc.so
+system/lib/libcodecmp3dec.so
+system/lib/libcodecmpeg2dec.so
+system/lib/libcodecmpeg4dec.so
+system/lib/libcodecmpeg4enc.so
+system/lib/libcodecpngdec.so
+system/lib/libcodecwmadec.so
+system/lib/libcodecwmvdec.so
+system/lib/libffmpeg.so
 
 # Sensors
-lib/hw/sensors.mrvl.so
+system/lib/hw/sensors.mrvl.so
 
 # CPU Freq
-lib/libcpufreqinterface.so
-lib/libcpufreq.so
+system/lib/libcpufreqinterface.so
+system/lib/libcpufreq.so
 
 # GPS
-lib/hw/gps.default.so
-etc/AGPS_CA.pem
+system/lib/hw/gps.default.so
+system/etc/AGPS_CA.pem
 
 # Unknown
-lib/hw/csr.cpd.so
-#Needed Library 'libutils.so'
-#Needed Library 'liblog.so'
-#Needed Library 'libcutils.so'
-#Needed Library 'libdl.so'
-#Needed Library 'libc.so'
-#Needed Library 'libstdc++.so'
-#Needed Library 'libm.so'
-#Shared Name 'csr.cpd.so'
-
+system/lib/hw/csr.cpd.so
 
 # Marvell Firmware
-etc/firmware/mrvl/reg_alpha2
-etc/firmware/mrvl/sd8787_uapsta.bin
-etc/firmware/mrvl/txpwrlimit_cfg.conf
-etc/firmware/mrvl/w8787_wlan_SDIO_bt_SDIO.bin
-etc/firmware/mrvl/WlanCalData_ext.conf
-etc/firmware/mrvl/WlanCalData_ext.conf_0
+system/etc/firmware/mrvl/reg_alpha2
+system/etc/firmware/mrvl/sd8787_uapsta.bin
+system/etc/firmware/mrvl/txpwrlimit_cfg.conf
+system/etc/firmware/mrvl/w8787_wlan_SDIO_bt_SDIO.bin
+system/etc/firmware/mrvl/WlanCalData_ext.conf
+system/etc/firmware/mrvl/WlanCalData_ext.conf_0
 
 # Libs unknown
-lib/libwtpsp.so
-lib/libwtpsp_ss.so
-lib/libwtpsp.so
-lib/libwtpsp_ss.so
-lib/libusbsetting.so
-lib/libsysfs.so
+system/lib/libwtpsp.so
+system/lib/libwtpsp_ss.so
+system/lib/libwtpsp.so
+system/lib/libwtpsp_ss.so
+system/lib/libusbsetting.so
+system/lib/libsysfs.so
 
 # Might not need this
-lib/libstagefrighthw.so
-lib/libsraxxd.so
-lib/libsrvxxd.so
-lib/libsimal.so
-lib/libserialport.so
-lib/libceu.so
-lib/libCSP.so
-lib/libgcu.so
-lib/libgpucsc.so
-lib/lib_gsd5t_mode7.so
-lib/libbz.so
-lib/libaah_rtp.so
+system/lib/libstagefrighthw.so
+system/lib/libsraxxd.so
+system/lib/libsrvxxd.so
+system/lib/libsimal.so
+system/lib/libserialport.so
+system/lib/libceu.so
+system/lib/libCSP.so
+system/lib/libgcu.so
+system/lib/libgpucsc.so
+system/lib/lib_gsd5t_mode7.so
+system/lib/libbz.so
+system/lib/libaah_rtp.so
 
 # Could be a sensor
-lib/libacm.so
-lib/libAndroidEvent.so
-lib/libHSV.so
-lib/libHWComposerGC.so
-lib/libionhelper.so
-lib/libippimgp.so
-lib/libippsp.so
-lib/libippvp.so
-lib/libOrgan.so
-lib/libpmemhelper.so
+system/lib/libacm.so
+system/lib/libAndroidEvent.so
+system/lib/libHSV.so
+system/lib/libHWComposerGC.so
+system/lib/libionhelper.so
+system/lib/libippimgp.so
+system/lib/libippsp.so
+system/lib/libippvp.so
+system/lib/libOrgan.so
+system/lib/libpmemhelper.so
 
 # Probably related to marvell powerdaemon files in etc
-lib/libPowerSetting.so
-lib/libparseTim.so
-lib/libSDRMInvLH.so
-
+system/lib/libPowerSetting.so
+system/lib/libparseTim.so
+system/lib/libSDRMInvLH.so
 
 # Display
-lib/hw/lights.mrvl.so
-lib/hw/gralloc.mrvl.so
-lib/hw/hwcomposer.mrvl.so
-lib/libHWComposerGC.so
-lib/libgcu.so
+system/lib/hw/lights.mrvl.so
+system/lib/hw/gralloc.mrvl.so
+system/lib/hw/hwcomposer.mrvl.so
+system/lib/libHWComposerGC.so
+system/lib/libgcu.so
 
 # Drm
-lib/libdivxdrm.so
-lib/drm/libdrmwvmplugin.so
-lib/libWVStreamControlAPI_L3.so
-lib/libwvdrm_L3.so
-
+system/lib/libdivxdrm.so
+system/lib/drm/libdrmwvmplugin.so
+system/lib/libWVStreamControlAPI_L3.so
+system/lib/libwvdrm_L3.so
