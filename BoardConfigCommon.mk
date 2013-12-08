@@ -24,7 +24,7 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_BOOTLOADER_BOARD_NAME := PXA988
 
 # Kernel
-TARGET_KERNEL_SOURCE         := kernel/samsung/lt02wifi-common-common
+TARGET_KERNEL_SOURCE         := kernel/samsung/lt02-common
 BOARD_KERNEL_CMDLINE         := 
 BOARD_KERNEL_BASE            := 0x10000000
 BOARD_MKBOOTIMG_ARGS         := --ramdisk_offset 0x11000000
